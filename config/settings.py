@@ -43,9 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Local
-    'books.apps.BooksConfig',
-    'api.apps.ApiConfig',
-    
+    'posts',
 
     # 3rd party
     'rest_framework',
