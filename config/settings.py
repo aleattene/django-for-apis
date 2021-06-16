@@ -43,8 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Local
-    'books.apps.BookConfig',
-    'api.apps.ApiConfig'
+    'books.apps.BooksConfig',
+    'api.apps.ApiConfig',
     
 
     # 3rd party
