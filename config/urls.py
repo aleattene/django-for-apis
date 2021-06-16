@@ -22,12 +22,15 @@ urlpatterns = [
     # Django admin
     path('dfa-admin/', admin.site.urls),
 
+    # API
+    # path('api/', include('api.urls')),
+
     # User management
     # path('accounts/', include('allauth.urls')),
 
     # Local apps
     # path('', include('pages.urls')),
-    path('', include('books.urls')),
+    # path('', include('books.urls')),
 ]  # + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 """
